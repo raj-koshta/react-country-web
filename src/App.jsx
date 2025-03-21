@@ -6,11 +6,13 @@ import Country from "./pages/Country"
 import About from "./pages/About"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AppLayout from './components/layout/AppLayout'
+import ErrorPage from './pages/ErrorPage'
 
 const router = createBrowserRouter([
   {
     path: "/react-country-web",
     element: <AppLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/react-country-web",
