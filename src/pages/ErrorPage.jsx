@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, useRouteError } from 'react-router-dom'
-import "../scss/Error.scss"
+import "../scss/Error.css"
 
 const ErrorPage = () => {
 
@@ -40,7 +40,9 @@ const ErrorPage = () => {
                     <div className="box__description-text">{error.data}</div>
                 </div>
 
-                <NavLink to="/react-country-web" className="box__button">Go back</NavLink>
+                <NavLink to="/react-country-web" className="box__button">
+                    Go back
+                </NavLink>
 
             </div>
 
