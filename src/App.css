@@ -107,7 +107,8 @@ button {
 header {
   height: 6rem;
   /* box-shadow: rgba(255, 254, 254, 0.3) 0px 10px 10px -10px; */
-  box-shadow: 0 0 10px rgba(255,254,254,0.3);
+  /* box-shadow: 0 0 10px rgba(255,254,254,0.3); */
+  box-shadow: inset 0 0 10px rgba(255,254,254,0.3);
   background-color: transparent;
   width: 80%;
   margin: auto;
