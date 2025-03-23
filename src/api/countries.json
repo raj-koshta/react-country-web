@@ -4,146 +4,146 @@
         "countryName": "World",
         "capital": "No Capital",
         "population": "Null",
-        "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
+        "interestingFact": "There are 195 countries today, including 193 member states and 2 observers."
     },
     {
         "id": 2,
         "countryName": "United States",
         "capital": "Washington, D.C.",
         "population": 331002651,
-        "interestingFact": "The United States is home to the world's largest economy."
+        "interestingFact": "The United States hosts the largest economy in the world."
     },
     {
         "id": 3,
         "countryName": "Canada",
         "capital": "Ottawa",
         "population": 37742154,
-        "interestingFact": "Canada has the longest coastline of any country in the world."
+        "interestingFact": "Canada has the longest coastlines of any nation globally."
     },
     {
         "id": 4,
         "countryName": "Mexico",
         "capital": "Mexico City",
         "population": 128933395,
-        "interestingFact": "Mexico is home to the ancient Mayan civilization."
+        "interestingFact": "Mexico is home to the historic Mayan civilization ruins."
     },
     {
         "id": 5,
         "countryName": "Brazil",
         "capital": "Brasília",
         "population": 212559417,
-        "interestingFact": "Brazil is the largest country in South America by both area and population."
+        "interestingFact": "Brazil is the largest nation in South America by land area."
     },
     {
         "id": 6,
         "countryName": "Argentina",
         "capital": "Buenos Aires",
         "population": 45195777,
-        "interestingFact": "Argentina is famous for its tango dance and music."
+        "interestingFact": "Argentina is famous for its traditional tango music and dance."
     },
     {
         "id": 7,
         "countryName": "Germany",
         "capital": "Berlin",
         "population": 83783942,
-        "interestingFact": "Germany is home to the world's largest beer festival, Oktoberfest."
+        "interestingFact": "Germany hosts the world’s largest beer festival, Oktoberfest."
     },
     {
         "id": 8,
         "countryName": "France",
         "capital": "Paris",
         "population": 67081000,
-        "interestingFact": "France is the world's most visited tourist destination."
+        "interestingFact": "France is the world’s leading tourist destination annually."
     },
     {
         "id": 9,
         "countryName": "United Kingdom",
         "capital": "London",
         "population": 67886011,
-        "interestingFact": "The UK has a rich royal history, with a monarchy that dates back over 1,000 years."
+        "interestingFact": "The UK has a rich monarchy dating back over a thousand years."
     },
     {
         "id": 10,
         "countryName": "Italy",
         "capital": "Rome",
         "population": 60265000,
-        "interestingFact": "Italy is the birthplace of the Renaissance and is known for its art and culture."
+        "interestingFact": "Italy is known as the birthplace of the Renaissance period."
     },
     {
         "id": 11,
         "countryName": "Australia",
         "capital": "Canberra",
         "population": 25499884,
-        "interestingFact": "Australia is home to the Great Barrier Reef, the world's largest coral reef system."
+        "interestingFact": "Australia features the Great Barrier Reef, the largest coral system."
     },
     {
         "id": 12,
         "countryName": "India",
         "capital": "New Delhi",
         "population": 1380004385,
-        "interestingFact": "India is the world's largest democracy and second most populous country."
+        "interestingFact": "India is the largest democracy globally and second in population."
     },
     {
         "id": 13,
         "countryName": "China",
         "capital": "Beijing",
         "population": 1393409038,
-        "interestingFact": "China is home to the Great Wall, the longest man-made structure in the world."
+        "interestingFact": "China features the Great Wall, the longest manmade structure."
     },
     {
         "id": 14,
         "countryName": "Japan",
         "capital": "Tokyo",
         "population": 126851743,
-        "interestingFact": "Japan is known for its advanced technology and unique culture."
+        "interestingFact": "Japan is renowned for its advanced technology and rich culture."
     },
     {
         "id": 15,
         "countryName": "South Korea",
         "capital": "Seoul",
         "population": 51329899,
-        "interestingFact": "South Korea is known for its pop culture, especially K-pop music and dramas."
+        "interestingFact": "South Korea is famous for its K-pop culture and drama series."
     },
     {
         "id": 16,
         "countryName": "Russia",
         "capital": "Moscow",
         "population": 145934462,
-        "interestingFact": "Russia is the largest country in the world by land area."
+        "interestingFact": "Russia is the world’s largest country by landmass size."
     },
     {
         "id": 17,
         "countryName": "South Africa",
         "capital": "Pretoria",
         "population": 59308690,
-        "interestingFact": "South Africa is known for its diverse wildlife and the famous Kruger National Park."
+        "interestingFact": "South Africa is known for its wildlife, especially Kruger Park."
     },
     {
         "id": 18,
         "countryName": "Egypt",
         "capital": "Cairo",
         "population": 91250000,
-        "interestingFact": "Egypt is home to the ancient pyramids, one of the Seven Wonders of the Ancient World."
+        "interestingFact": "Egypt features the ancient pyramids, one of the Seven Wonders."
     },
     {
         "id": 19,
         "countryName": "Kenya",
         "capital": "Nairobi",
         "population": 53771296,
-        "interestingFact": "Kenya is known for its diverse wildlife, including lions, elephants, and giraffes."
+        "interestingFact": "Kenya is famous for its diverse wildlife, including giraffes."
     },
     {
         "id": 20,
         "countryName": "Nigeria",
         "capital": "Abuja",
         "population": 206139589,
-        "interestingFact": "Nigeria is the most populous country in Africa."
+        "interestingFact": "Nigeria is the most populous nation across the African continent."
     },
     {
         "id": 21,
         "countryName": "Saudi Arabia",
         "capital": "Riyadh",
         "population": 34813871,
-        "interestingFact": "Saudi Arabia is home to Mecca, the holiest city in Islam."
+        "interestingFact": "Saudi Arabia is home to Mecca, Islam's most sacred city."
     }
 ]
