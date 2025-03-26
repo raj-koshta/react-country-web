@@ -23,7 +23,7 @@ const Country = () => {
 
   return (
     <section className='country-section'>
-      <ul className='grid grid-four-cols'>
+      <ul className='grid grid-three-cols'>
         {
           countries.map((CurCountry, index)=>{
             return <CountryCard country={CurCountry} key={index} />

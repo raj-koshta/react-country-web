@@ -428,6 +428,10 @@ country Card
   }
 }
 
+.country-section ul {
+  padding: 0px 160px;
+}
+
 /* indivisual card container  */
 .country-details-card {
   max-width: 100%;
@@ -579,6 +583,10 @@ contact us Page ends here
 @media screen and (max-width: 980px) {
   .grid-four-cols {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-three-cols{
+    grid-template-columns: 1fr;
   }
 }
 
