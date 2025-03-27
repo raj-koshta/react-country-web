@@ -1,13 +1,16 @@
 import React from 'react'
 import { NavLink, useRouteError } from 'react-router-dom'
 import "../scss/Error.css"
+import Loader from '../components/UI/Loader'
 
 const ErrorPage = () => {
 
-    const error = useRouteError();
-    console.log(error)
-    console.log(error.data)
+    const error = useRouteError()
+    // console.log(error)
 
+    if(!error)
+        return <Loader />
+    
     return (
         <div className="box">
             <div className="box__ghost">
