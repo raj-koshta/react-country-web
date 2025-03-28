@@ -153,15 +153,19 @@ nav ul {
   .ham-menu {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 15px;
   }
 
   .menu-mobile {
     position: absolute;
-    top: 10rem;
+    top: 7.5rem;
     left: 0;
     background-color: #0d1212;
-    width: 100%;
-    box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
+    width: 75%;
+    left: 13%;
+    border-radius: 25px 25px 0px 0px;
+    z-index: 1;
+    box-shadow: rgba(255, 252, 252, 0.142) 0px 14px 28px;
   }
 
   .menu-mobile ul {
@@ -170,7 +174,7 @@ nav ul {
     align-items: center;
 
     & li:first-child {
-      margin-top: 1.2rem;
+      margin-top: 2rem;
     }
 
     & li:last-child {
@@ -470,6 +474,7 @@ country Card
 .section-searchFilter {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 3.2rem;
@@ -483,11 +488,16 @@ country Card
     font-family: "urbanist";
     font-size: 1.55rem;
     font-weight: bold;
+    padding: 5px;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  }
+
+  & button {
+    margin-top: 0px;
   }
 
   & .select-section {
@@ -527,6 +537,30 @@ country Card
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 991px) {
+  .section-searchFilter{
+    width: 75%;
+
+    & input {
+      flex: 0 0 45%;
+      margin-bottom: 15px;
+      order: 1;
+    }
+    
+    & button {
+      flex: 0 0 45%;
+      order: 3;
+    }
+    
+    & div {
+      flex: 0 0 45%;
+      order: 2;
+    }
+  }
+
+  
 }
 
 /* ------------------ 
