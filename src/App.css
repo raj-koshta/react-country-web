@@ -140,6 +140,10 @@ nav ul {
   }
 }
 
+.active{
+  color: #2e86c1;
+}
+
 .ham-menu {
   display: none;
 }

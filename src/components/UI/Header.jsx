@@ -23,22 +23,34 @@ const Header = () => {
           <nav className={show ? "menu-mobile" : "menu-web"}>
             <ul>
               <li>
-                <NavLink to="/react-country-web" onClick={handleButtonToggle}>
+                <NavLink 
+                  className={({ isActive }) => isActive ? 'active' : ''}
+                  to="/react-country-web" 
+                  onClick={handleButtonToggle}>
                     Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/react-country-web/about" onClick={handleButtonToggle}>
+                <NavLink 
+                  // className={({ isActive }) => isActive ? 'active' : ''}
+                  to="/react-country-web/about" 
+                  onClick={handleButtonToggle}>
                     About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/react-country-web/country" onClick={handleButtonToggle}>
+                <NavLink 
+                  // className={({ isActive }) => isActive ? 'active' : ''}
+                  to="/react-country-web/country" 
+                  onClick={handleButtonToggle}>
                     Country
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/react-country-web/contact" onClick={handleButtonToggle}>
+                <NavLink 
+                  // className={({ isActive }) => isActive ? 'active' : ''}
+                  to="/react-country-web/contact" 
+                  onClick={handleButtonToggle}>
                     Contact
                 </NavLink>
               </li>
