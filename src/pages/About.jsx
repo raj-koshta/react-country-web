@@ -1,5 +1,6 @@
 import React from 'react'
 import countires from "../api/countries.json"
+import { motion } from 'motion/react'
 
 const About = () => {
 
@@ -17,9 +18,14 @@ const About = () => {
         {
           countires.map((country) => {
 
-            const {id, countryName, capital, population, interestingFact} = country;
+            const { id, countryName, capital, population, interestingFact } = country;
 
-            return <div className='card' key={id}>
+            return <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }} // Fade in when in view
+              whileOutOfView={{ opacity: 0 }} // Fade out when out of view
+              transition={{ duration: 2 }}
+              className='card' key={id}>
               <div className='container-card bg-blue-box'>
                 <p className='card-title'>
                   {countryName}
@@ -37,7 +43,7 @@ const About = () => {
                   {interestingFact}
                 </p>
               </div>
-            </div>
+            </motion.div>
           })
         }
 
